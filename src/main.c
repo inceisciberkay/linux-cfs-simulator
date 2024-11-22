@@ -108,6 +108,7 @@ int main(int argc, char *argv[]) {
     inmode = INFILE;
   } else {
     fprintf(stderr, "First argument must be either C or F");
+    return 1;
   }
 
   read_args(argc, argv);
